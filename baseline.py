@@ -17,7 +17,6 @@ class BaselineModel:
     def evaluate(self, X, y, pos_label='t'):
         y_pred = self.predict(X)
         
-        # 将 y 和 y_pred 转换为数值用于 roc_auc
         y_binary = (y == pos_label).astype(int)
         y_pred_binary = (y_pred == pos_label).astype(int)
         
