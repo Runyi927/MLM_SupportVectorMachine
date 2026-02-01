@@ -1,1 +1,2 @@
-# mlm_part01
+# MLM Group Project
+## Part 01
